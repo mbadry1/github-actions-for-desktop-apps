@@ -15,6 +15,8 @@ namespace MyWPFApp
         {
             InitializeComponent();
 
+int x = 0
+
             packageName.Text = ThisAppInfo.GetDisplayName();
             assemblyVersion.Text = ThisAppInfo.GetThisAssemblyVersion();
             packageVersion.Text = ThisAppInfo.GetPackageVersion();
